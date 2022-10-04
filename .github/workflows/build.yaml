@@ -43,8 +43,8 @@ jobs:
     # 因此，在目录下执行 npm run build 等同于执行 hexo g，但是不需要全局安装 hexo-cli
     - run: npm run build
 
-- name: Deploy to Cloudflare Workers
-  uses: cloudflare/wrangler-action@1.1.0
-  with:
-    apiToken: ${{ secrets.CF_WORKERS_TOKEN }} # 前一步设置的 Secrets 的名称
-    # Wrangler Action 也支持使用传统的 Global API Token + Email 的鉴权方式，但不推荐
+  - name: Deploy to Cloudflare Workers
+    uses: cloudflare/wrangler-action@1.1.0
+    with:
+      apiToken: ${{ secrets.CF_WORKERS_TOKEN }} # 前一步设置的 Secrets 的名称
+      # Wrangler Action 也支持使用传统的 Global API Token + Email 的鉴权方式，但不推荐
