@@ -1,0 +1,10 @@
+name = "hexo"
+type = "webpack"
+account_id = "77a37d339acf8213d7263e5bf351ef40"
+route = "https://watchlezi.atunemic.cn/*"
+zone_id = "365f57d6577c17f5cbab2739bd3530fc"
+usage_model = ''
+compatibility_flags = []
+workers_dev = false
+site = {bucket = "./public",entry-point = "workers-site"}
+compatibility_date = "2021-09-24"
