@@ -10,8 +10,8 @@ jobs:
       matrix:
         node-version:
           - 16.x
-    steps:
-      - name: Checkout
+  steps:
+    - name: Checkout
       uses: actions/checkout@v2
       with:
         # 令 GitHub 在 git clone 和 git checkout 后「忘记」使用的 credentials。
