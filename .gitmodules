@@ -1,0 +1,3 @@
+[submodule "themes/Anisina"]
+	path = themes/Anisina
+	url = https://github.com/Haojen/hexo-theme-Anisina.git
