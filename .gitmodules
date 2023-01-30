@@ -1,6 +1,6 @@
 [submodule "themes/Anisina"]
 	path = themes/Anisina
 	url = https://github.com/Haojen/hexo-theme-Anisina.git
-[submodule "themes/iLiKE"]
-	path = themes/iLiKE
-	url = https://github.com/CaiChenghan/iLiKE.git
+[submodule "themes/arknights"]
+	path = themes/arknights
+	url = https://github.com/Yue-plus/hexo-theme-arknights.git
