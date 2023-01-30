@@ -99,10 +99,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: arknights
 
-highlight:
-  hljs: true
-
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
